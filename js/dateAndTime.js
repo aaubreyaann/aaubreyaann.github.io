@@ -1,7 +1,7 @@
 let mod = new Date(document.lastModified)
 let month = mod.getMonth();
 let date = mod.getDate();
-let year = mod.getfullYear();
+let year = mod.getFullYear();
 let hour = mod.getHours();
 let min = mod.getMinutes();
 let sec = mod.getSeconds();
