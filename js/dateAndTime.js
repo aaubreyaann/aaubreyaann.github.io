@@ -1,9 +1,9 @@
-let mod = new Date(document.lastModified)
+let mod = new Date(document.lastModified);
 let month = mod.getMonth();
 let date = mod.getDate();
 let year = mod.getFullYear();
 let hour = mod.getHours();
 let min = mod.getMinutes();
 let sec = mod.getSeconds();
-let modified = "Last Updated: " + month + "/" + date + "/" + year + " " + hour + ":" + min + ":" + sec
-document.getElementById("modify").textContent = modified
+let modified = "Last Updated: " + month + "/" + date + "/" + year + " " + hour + ":" + min + ":" + sec;
+document.getElementById("modify").innerHTML = modified;
