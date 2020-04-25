@@ -13,12 +13,12 @@ img {
     float: right;
     box-shadow: 0px 0px 20px black;
 }
-footer, header {
+header, footer {
     color: #ffffff;
     background-color: #e1ad01;
     text-align: center;
     border-radius: 10px;
-    padding: 1rem;]
+    padding: 1rem;
 }
 footer {
     font-size: 15px;

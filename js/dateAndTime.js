@@ -1,5 +1,5 @@
 let mod = new Date(document.lastModified);
-let month = mod.getMonth();
+let month = mod.getMonth() + 1;
 let date = mod.getDate();
 let year = mod.getFullYear();
 let hour = mod.getHours();
