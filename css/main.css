@@ -1,0 +1,40 @@
+header, main, footer {
+    margin: 1rem auto;
+    max-width: 760px;
+    font-family: impact, sans-serif;
+
+}
+header{
+    height: 70px;
+    font-size: 50px;
+}
+img {
+    width: 180px;
+    float: right;
+    box-shadow: 0px 0px 20px black;
+}
+footer, header {
+    color: #ffffff;
+    background-color: #e1ad01;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;]
+}
+footer {
+    font-size: 15px;
+    height: 35px;
+    line-height: 10px;
+}
+main {
+    padding: .1rem;
+}
+h2{
+    border-bottom: 1px solid black;
+    line-height: 35px;
+}
+footer a{
+    color: white;
+}
+footer p {
+    color: black;
+}
