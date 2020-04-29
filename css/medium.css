@@ -1,5 +1,14 @@
-@media only screen and (min-width: 32.5em) {
+@media (min-width: 32.5em) {
     img {
         float: right;
+    }
+    header {
+        font-size: 30px;
+    }
+    ul {
+        font-size: 20px;
+    }
+    main h2{
+        font-size: 32px;
     }
 }

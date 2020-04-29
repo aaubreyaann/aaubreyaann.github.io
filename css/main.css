@@ -3,8 +3,9 @@ header, main, footer {
     max-width: 760px;
 }
 header{
-    height: 70px;
-    font-size: 50px;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 4px;
 }
 img {
     width: 180px;
@@ -12,26 +13,29 @@ img {
 }
 ul {
     font-family: impact, sans-serif;
+    font-size: 16px;
 }
 header, footer {
     color: #ffffff;
     background-color: #e1ad01;
     text-align: center;
     border-radius: 10px;
-    padding: 1rem;
 }
 footer {
     font-size: 15px;
     height: 35px;
     line-height: 10px;
     font-family: impact, sans-serif;
+    padding: 1rem;
 }
 main {
-    padding: .1rem;
+    padding: 1rem;
 }
-h2{
+main h2{
     border-bottom: 1px solid black;
     line-height: 35px;
+    font-size: 28px;
+    margin-bottom: 2px;
 }
 footer a{
     color: white;
@@ -39,6 +43,8 @@ footer a{
 footer p {
     color: black;
 }
-h2, header {
+h2, h1 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
