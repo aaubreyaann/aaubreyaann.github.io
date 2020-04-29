@@ -1,8 +1,6 @@
 header, main, footer {
     margin: 1rem auto;
     max-width: 760px;
-    font-family: impact, sans-serif;
-
 }
 header{
     height: 70px;
@@ -10,8 +8,10 @@ header{
 }
 img {
     width: 180px;
-    float: right;
     box-shadow: 0px 0px 20px black;
+}
+ul {
+    font-family: impact, sans-serif;
 }
 header, footer {
     color: #ffffff;
@@ -24,6 +24,7 @@ footer {
     font-size: 15px;
     height: 35px;
     line-height: 10px;
+    font-family: impact, sans-serif;
 }
 main {
     padding: .1rem;
@@ -37,4 +38,7 @@ footer a{
 }
 footer p {
     color: black;
+}
+h2, header {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
