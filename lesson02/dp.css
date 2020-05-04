@@ -10,8 +10,8 @@ header{
     line-height: 20px;
 }
 header, footer {
-    color: #ffffff;
-    background-color: #e1ad01;
+    color: #383838;
+    background-color: #DFAB01;
     text-align: center;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@ main {
 section h3 {
     font-size: 30px;
     text-align: center;
-    background-color: black;
+    background-color: #383838;
     color: white;
     margin-top: 0px;
     border-top-left-radius: 10px;

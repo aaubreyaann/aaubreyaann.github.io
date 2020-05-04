@@ -16,8 +16,8 @@ ul {
     font-size: 16px;
 }
 header, footer {
-    color: #ffffff;
-    background-color: #e1ad01;
+    color: #383838;
+    background-color: #DFAB01;
     text-align: center;
     border-radius: 10px;
 }
@@ -38,7 +38,7 @@ main h2{
     margin-bottom: 2px;
 }
 footer a{
-    color: white;
+    color: #383838;
 }
 footer p {
     color: black;
