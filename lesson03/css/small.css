@@ -1,0 +1,115 @@
+header, main, footer, nav {
+    margin: 1rem auto;
+    max-width: 760px;
+}
+header, main, nav {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header{
+    padding: 8px;
+    line-height: 20px;
+}
+header, footer {
+    color: #383838;
+    background-color: #DFAB01;
+    text-align: center;
+    border-radius: 10px;
+}
+footer {
+    font-size: 15px;
+    height: 35px;
+    line-height: 10px;
+    font-family: impact, sans-serif;
+    padding: 1rem;
+    background-color: #033f63;
+    color: #fff;
+}
+
+.color {
+    max-width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #fff;
+}
+.logo {
+    max-width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #fff;
+}
+.persona {
+    max-width: 300px;
+}
+main {
+    padding: .5rem;
+    background-color: #5fbfc5;
+    border-style: solid;
+    border-color:  #DFAB01;
+    border-radius: 10px;
+    border-width: 5px;
+    color: #383838;
+    font-size: 18px;
+}
+section h3 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #383838;
+    color: white;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+header h1 {
+    font-size: 35px;
+    line-height: 20px;
+}
+header h2 {
+    font-size: 30px;
+}
+main h3 {
+    font-size: 25px;
+}
+footer p {
+    color: black;
+}
+footer a {
+    color: #fff;
+}
+nav {
+	background-color:  #033f63;
+    text-align: center;
+    border-radius: 10px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #5fbfc5;
+    color: #033f63;
+    border-radius: 10px;
+}
+.active {
+    color: #5fbfc5;
+    background-color: #033f63;
+    border-radius: 10px;
+}
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+.cormorant {
+    font-family: 'Cinzel', serif;
+font-family: 'Cormorant Garamond', serif;
+}
+

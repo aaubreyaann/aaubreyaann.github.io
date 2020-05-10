@@ -1,0 +1,12 @@
+@media only screen and (min-width: 65em) {
+
+    header h1 {
+        font-size: 40px;
+    }
+    header h2 {
+        font-size: 35px;
+    }
+    nav a {
+		font-size: 1.1rem;
+	}
+}
