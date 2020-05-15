@@ -18,10 +18,14 @@
     }
     header img {
         width: 80px;
-        padding-left: 50px;
+
     }
-    .headerContent {
-        max-width: 950px;
+    main h2 {
+        font-size: 25px;
     }
+    main div {
+        font-size: 20px;
+    }
+
     
 }
