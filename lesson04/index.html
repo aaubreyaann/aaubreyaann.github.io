@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel=""
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="" alt="logo"><h1>Little City Weather</h1>
-        <h2>Big weather info for your little cities</h2>
-    </header>
-    <nav class="clearfix">
-
+        <section class="headerContent">        
+            <img src="images/iconfinder_15_Cloud_Raindrop_Sun_183424 (1).png" alt="logo"><h1>Little City Weather</h1>
+            <div>Big weather info for your little city</div>
+        </section>
+        </header>
+    <nav>
         <ul class="navigation responsive">
             <li><a onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
@@ -31,14 +32,15 @@
         </ul>
     </nav>
     <main>
-        <h3>Preston</h3>
+        <h2>Preston</h2>
+        <div>Hero w/ weather summary</div>
+        <div>5 day Forecast</div>
+        <div>Article</div>
+        <div>Contact Information</div>
     </main>
     <footer>
         &copy; Little City Weather | Attributions | Aubrey Stubbs
-        <p id="current">
-            <script src="js/date.js"></script>
-        </p>
-
+        <p id="current"><script src="js/date.js"></script></p>
     </footer>
     <script src="js/nav.js"></script>
 </body>
