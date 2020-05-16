@@ -54,7 +54,7 @@ header {
     align-items: center;
     height: 100px;
     line-height: 4px;
-    font-size: 15px;
+    font-size: 13px;
 }
 header.headerContent {
     text-align: center;
@@ -67,7 +67,7 @@ h1 {
 }
 header img {
     width: 70px;
-    margin-right: .5rem;
+    margin-right: .45rem;
 }
 footer {
     height: 25px;
