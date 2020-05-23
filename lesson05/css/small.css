@@ -54,16 +54,17 @@ header {
     align-items: center;
     height: 100px;
     line-height: 4px;
-    font-size: 13px;
+    font-size: 11px;
+    padding-left: 5px;
 }
-header.headerContent {
+header .headerContent {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
     color: #383838;
 }
 h1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 header img {
     width: 70px;
