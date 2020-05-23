@@ -10,6 +10,6 @@ document.getElementById("current").innerHTML = dayArray[day] + ", " + date + " "
 
 
 addBanner = document.querySelector(".friday")
-if (day == 6) {
+if (day == 5) {
     addBanner.style.display = "block"
 }
