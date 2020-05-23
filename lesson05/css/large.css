@@ -43,4 +43,7 @@
     main div {
         font-size: 25px;
     }
+    .weather-description {
+        left: 60px;
+    }
 }

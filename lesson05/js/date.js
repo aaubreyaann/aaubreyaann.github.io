@@ -7,3 +7,9 @@ let month = currDate.getMonth()
 let year = currDate.getFullYear()
 
 document.getElementById("current").innerHTML = dayArray[day] + ", " + date + " " + monthArray[month] + ", " + year
+
+
+addBanner = document.querySelector(".friday")
+if (day == 5) {
+    addBanner.style.display = "block"
+}
