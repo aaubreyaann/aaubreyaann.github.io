@@ -1,7 +1,1 @@
-WebFont.load({
-    google: {
-        families: [
-            'Open Sans Condensed'
-        ]
-    }
-});
+WebFont.load({google: {families: ['Montserrat']}});
