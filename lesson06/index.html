@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Preston Weather</title>
+    <meta name="description" content="Weather page for Preston">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="friday">
+        <p>Saturday = Preston Pancakes in the Park!</p>
+        <p>9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+            <img src="images/‭rain-cloud-icon.png" alt="cloud with sun and rain drop">
+            <section class="headerContent"> 
+            <h1>Little City Weather</h1>
+            <div>Big weather info for your little city</div>
+            </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>           
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston</h2>
+        <div class="hero-div">
+            <picture>
+                <source srcset="images/image_560.jpg" media="(min-width: 560px) and (max-width: 959px)">
+                <source srcset="images/image_960.jpg" media="(min-width: 960px)">
+                <img src="images/image_400.jpg" alt="field">
+                </picture>
+            <section class="weather-description">
+                <h4>Weather Summary</h4>
+                <div class="grid-hold">
+                    <p class="left-grid row-one">Currently:</p><p class="right-grid row-one">Sunny</p>
+                    <p class="left-grid row-two">High:</p><p class="right-grid row-two"><span id="temperature">40</span>&#176;</p>
+                    <p class="left-grid row-three">Wind Chill:</p><p class="right-grid row-three"><span id="chill"></span><span class="degrees noDegrees">&#176;F</span></p>
+                    <p class="left-grid row-four">Humidity:</p><p class="right-grid row-four">40%</p>
+                    <p class="left-grid row-five">Wind Speed:</p><p class="right-grid row-five"><span id="wind-speed">5</span> mph</p>
+                </div>
+            </section>
+        </div>
+        <div class="forecast">
+            <h3>5 day Forecast</h3>
+            <div class="table-hold">
+                <ul class="table-row top">
+                    <li class="table-item">Sat</li>
+                    <li class="table-item">Sun</li>
+                    <li class="table-item">Mon</li>
+                    <li class="table-item">Tues</li>
+                    <li class="table-item">Wed</li>
+                </ul>
+                <ul class="table-row bottom">
+                    <li class="table-item"><img src="images/sun.png" alt="sunny day"><br>82&#176;</li>
+                    <li class="table-item"><img src="images/sun.png" alt="sunny day"><br>85&#176;</li>
+                    <li class="table-item"><img src="images/sun.png" alt="sunny day"><br>81&#176;</li>
+                    <li class="table-item"><img src="images/rain.png" alt="rainy day"><br>72&#176;</li>
+                    <li class="table-item"><img src="images/rain.png" alt="rainy day"><br>69&#176;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="article">
+            <h3>Great Article About Something</h3>
+            <img src="images/overcast-lake.jpg" alt="man on lake">
+            <h4>by Jane Doe</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Eligendi, suscipit impedit id dolores non aperiam. Minus iusto odio accusamus ducimus labore, 
+                beatae exercitationem facere ipsum numquam vero. Fugiat, minus autem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorem ducimus excepturi 
+                voluptatibus. Quas consectetur, numquam voluptatem repellendus a quasi culpa debitis voluptatibus 
+                inventore quod sunt sint dolorem commodi eligendi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam provident harum quos 
+                animi similique cum perferendis pariatur temporibus illo, totam ducimus natus rerum, dicta 
+                non vel facilis tempore adipisci. Magni?
+            </p>
+        </div>
+        <div>
+        <div class="map">
+            <img src="images/map-preston.png" alt="Preston map">
+        </div>
+            <div class="contact">
+                <div class="left">
+                    <h2 class="bold">Little City Weather</h2>
+                    <p><img src="images/location.png" alt="location">30 N 1st E</p>
+                    <p>Preston, ID 83263</p>
+                </div>
+                <div class="left">
+                    <p><img src="images/phone.png" alt="phone">999.999.9999</p>
+                    <p><img src="images/email.png" alt="email">littlecityweather@lcw.com</p>
+                </div>
+                <div class="social">
+                    <a href="facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="pinterest.com"><img src="images/pinterest.png" alt="pinterest"></a>
+                    <a href="twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="whatsapp.com"><img src="images/whatsapp.png" alt="whatsapp"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; Little City Weather | Attributions | Aubrey Stubbs
+        <p id="current"><script src="js/date.js"></script></p>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="webfontload.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>
