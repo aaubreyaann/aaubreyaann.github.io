@@ -1,0 +1,16 @@
+body {
+    margin: auto;
+    width: 300px;
+}
+div img[data-src] {
+    filter: blur(0.2em);
+}
+div img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+body .grid {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 20px;
+}

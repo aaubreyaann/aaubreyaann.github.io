@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Lazy Load Images</title>
+    <meta name="description" content="Assignment page to lazy load images">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <main>
+        <h1>Lazy Loading Images</h1>
+        <div class="grid">
+            <picture class="one">
+                <img src="placeholder.jpg" data-src="keyboard.jpg" alt="keyboard">
+            </picture>
+            <picture class="two">
+                <img src="placeholder.jpg" data-src="street.jpg" alt="street">
+            </picture>
+            <picture class="three">
+                <img src="placeholder.jpg" data-src="taxicab.jpg" alt="taxicab">
+            </picture>
+            <picture class="four">
+                <img src="placeholder.jpg" data-src="van.jpg" alt="van">
+            </picture>
+            <picture class="five">
+                <img src="placeholder.jpg" data-src="vase.jpg" alt="vase">
+            </picture>
+        </div>
+    </main>
+    <script src="lazy.js"></script>
+</body>
+
+</html>
