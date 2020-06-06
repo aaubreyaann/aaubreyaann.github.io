@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Preston Weather</title>
+    <meta name="description" content="Weather page for Preston">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+            <img src="images/‭rain-cloud-icon.png" alt="cloud with sun and rain drop">
+            <section class="headerContent"> 
+            <h1>Little City Weather</h1>
+            <div>Big weather info for your little city</div>
+            </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="../lesson06/index.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>           
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="grid">
+            <figure class="one">
+                <img src="images/placeholder.jpg" data-src="images/after-a-storm-in-fishhaven.jpg" alt="After a Storm in Fishaven">
+                <figcaption class="nocap">After a Storm in Fishaven</figcaption>
+            </figure>
+            <figure class="two">
+                <img src="images/placeholder.jpg" data-src="images/chill-morning-on-Preston-lake.jpg" alt="Chill Morning on Preston Lake">
+                <figcaption class="nocap">Chill Morning on Preston Lake</figcaption>
+            </figure>
+            <figure class="three">
+                <img src="images/placeholder.jpg" data-src="images/lightning-in-Soda-Springs.jpg" alt="Lightning in Soda Springs">
+                <figcaption class="nocap">Lightning in Soda Springs</figcaption>
+            </figure>
+            <figure class="four">
+                <img src="images/placeholder.jpg" data-src="images/storm-clouds-in-Preston.jpg" alt="Storm Clouds in Preston">
+                <figcaption class="nocap">Storm Clouds in Preston</figcaption>
+            </figure>
+            <figure class="five">
+                <img src="images/placeholder.jpg" data-src="images/summer-clouds-in-soda-springs.jpg" alt="Summer Clouds in Soda Springs">
+                <figcaption class="nocap">Summer Clouds in Soda Springs</figcaption>
+            </figure>
+            <figure class="six">
+                <img src="images/placeholder.jpg" data-src="images/summer-night-on-Preston-lake.jpg" alt="Summer Night on Preston Lake">
+                <figcaption class="nocap">Summer Night on Preston Lake</figcaption>
+            </figure>
+            <figure class="seven">
+                <img src="images/placeholder.jpg" data-src="images/sun-shining-in-Fishhaven.jpg" alt="Sun Shining in Fishaven">
+                <figcaption class="nocap">Sun Shining in Fishaven</figcaption>
+            </figure>
+            <figure class="eight">
+                <img src="images/placeholder.jpg" data-src="images/sunset-in-Franklin-Park.jpg" alt="Sunset in Franklin Park">
+                <figcaption class="nocap">Sunset in Franklin Park</figcaption>
+            </figure>
+            <figure class="nine">
+                <img src="images/placeholder.jpg" data-src="images/overcast-day-on-the-lake.jpg" alt="Overcast Day on the Lake">
+                <figcaption class="nocap">Overcast Day on the Lake</figcaption>
+            </figure>
+    </main>
+    <footer>
+        &copy; Little City Weather | Attributions | Aubrey Stubbs
+        <p id="current"><script src="js/date.js"></script></p>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="webfontload.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/lazy.js"></script>
+</body>
+
+</html>

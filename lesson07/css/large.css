@@ -1,8 +1,8 @@
 @media only screen and (min-width: 60em) {
     /*main changes for large*/
     main {
-        margin: 2rem auto;
-        max-width: 960px;
+        margin: auto;
+        width: 940px;
     }
     /*navigation alterations*/
     .navigation {
@@ -38,12 +38,27 @@
 
     }
     main h2 {
-        font-size: 30px;
+        font-size: 40px;
+        margin: 20px;
     }
     main div {
         font-size: 25px;
     }
-    .weather-description {
-        left: 60px;
+    /*Gallery Changes*/
+    .nocap {
+        display: block;
+        font-size: 20px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        text-align: left;
+    }
+    body .grid {
+        grid-template-columns: 300px 300px 300px;
+    }
+    div figure {
+        height: 235px;
+    }
+    div figure:hover {
+        box-shadow: 0px 0px 25px #000000;
     }
 }
