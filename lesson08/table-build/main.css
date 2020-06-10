@@ -44,5 +44,8 @@ tfoot {
     background-color: #628ca6;
     color: white;
 }
+span {
+    font-style: italic;
+}
 /*colors light grey back #e7f0ed, pale green back#e7ffed (data rows) and 
 dark blue back #628ca6, head and footer#7fb9c2*/
