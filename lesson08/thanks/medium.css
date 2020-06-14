@@ -1,9 +1,4 @@
 @media only screen and (min-width: 40em) {
-
-    /*main changes*/
-    main {
-        width: 620px;
-    }
     header {
         background-color: #5fbfc5;
         height: 100px;
@@ -20,12 +15,19 @@
         width: 80px;
     }
     main h2 {
-        font-size: 35px;
-        margin-left: 30px;
+        font-size: 30px;
+        color: #033f63;
+    }
+    main p {
+        color: #383838;
+        font-size: 25px;
+    }
+    main a {
+        color: #033f63;
+        font-size: 20px;
     }
     /*Footer Changes*/
     footer {
         font-size: 13px;
     }
-
 }

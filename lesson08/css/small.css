@@ -1,72 +1,105 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
-/*----------- BODY --------------*/
+header, nav, footer, main {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color: #383838;
+}
 body {
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
+    margin: 0;
 }
-
-
-/*----------- HEADER --------------*/
-header {
-    padding: .5rem 2%;
-    background-color: #ddd;
-}
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
-
-/*----------- NAVIGATION --------------*/
+/*navigation set up*/
 nav {
-    background-color: #666;
+    background-color: #DFAB01;
+    width: 100%;
 }
-nav ul {
+.navigation {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    font-size: 15px;
 }
-nav ul li {
-    float: left;
-    width: 25%;
-}
-nav ul li a {
+.navigation li {
     display: block;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
 }
-nav ul li:first-child a {border-left: none;}
-
-nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+.responsive li:first-child {
+    display: block;
+}
+.navigation a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #383838;
+    padding: .8rem 2%;
 }
 nav ul li.active a {
-    background-color: #000;
+    background-color: rgba(0,0,0,0.2);
     color: #fff;
 }
-/*----------- MAIN --------------*/
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+.responsive li {
+    display: none;
+}
+/*header/footer set up*/
+header, footer {
+    width: 100%;
+    text-align: center;
+}
+header {
+    background-color: #5fbfc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    line-height: 4px;
+    font-size: 11px;
+    padding-left: 5px;
+}
+header .headerContent {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #383838;
+}
+h1 {
+    font-size: 20px;
+}
+header img {
+    width: 70px;
+    margin-right: .45rem;
+}
+footer {
+    height: 25px;
+    background-color: #DFAB01;
+    line-height: 4px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-content: center;
+    font-size: 10px;
+    clear: both;
+}
+/*Main set up*/
 main {
-    padding: 0 2%;
-    min-height: 20rem;
+    margin: 2rem auto;
+    width: 100%;
+}
+main h2 {
+    font-size: 30px;
+    color: #033f63;
 }
 /* -----------FORM---------------*/
+form label, form fieldset div{
+    font-size: 15px;
+}
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid green;
+    border: 1px solid #DFAB01;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form legend {
-    color: black;
+    color: #033f63;
     margin: 0 1rem; 
     padding: 0 .5rem;
 }
@@ -74,28 +107,26 @@ form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: gray;
-    font-size: .8rem;
 }
 form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
-    font-size: 1rem;
-    border: solid 1px purple;
+    border: solid 1px #5fbfc5;
     border-radius: 4px;
     padding: .75rem;
-    color: grey;
+    color: #383838;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
 form label.sbs {
     display: block;
-    padding: .75rem 0;
-    color: purple
+    padding: .25rem 0;
+    color: #383838
 }
 form input.submitBtn {
     border: none;
-    background-color: green;
+    background-color: #033f63;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -109,29 +140,25 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*----------- FOOTER --------------*/
-footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
-    text-align: center;
+form div.range {
+    padding-top: 1rem;
+    padding: .75rem;
+    padding-left: 0;
+    width: 190px;
+    display: block;
+    align-items: center;
 }
-
-
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+form div.range span {
+    padding-right: 15px;
+}
+form div.range input {
+    width: 340px;
+}
+form label textarea.text {
+    display: block;
+    width: 320px;
+    border: solid 1px #5fbfc5;
+    border-radius: 4px;
+    padding: .75rem;
+    background-color: rgba(0, 0, 0, 0.1);
 }
