@@ -1,0 +1,134 @@
+
+header, nav, footer, main {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color: #383838;
+}
+body {
+    margin: 0;
+}
+/*navigation set up*/
+nav {
+    background-color: #DFAB01;
+    width: 100%;
+}
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+.navigation li {
+    display: block;
+}
+.responsive li:first-child {
+    display: block;
+}
+.navigation a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #383838;
+    padding: .8rem 2%;
+}
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+.responsive li {
+    display: none;
+}
+/*header/footer set up*/
+header, footer {
+    width: 100%;
+    text-align: center;
+}
+header {
+    background-color: #5fbfc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    line-height: 4px;
+    font-size: 11px;
+    padding-left: 5px;
+}
+header .headerContent {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #383838;
+}
+h1 {
+    font-size: 20px;
+}
+header img {
+    width: 70px;
+    margin-right: .45rem;
+}
+footer {
+    height: 25px;
+    background-color: #DFAB01;
+    line-height: 4px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-content: center;
+    font-size: 10px;
+    clear: both;
+}
+/*Main set up*/
+main {
+    margin: 2rem auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+}
+main section h2 {
+    color: #033f63;
+    margin: 0;
+    font-size: 25px;
+}
+main section h3 {
+    color: #033f63;
+    font-style: italic;
+    margin: 0;
+    font-size: 15px;
+}
+main p {
+    color: #383838;
+    font-size: 15px;
+}
+div.towns {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+section {
+    background-color: #5fbfc5;
+    padding: 10px;
+    text-align: center;
+}
+section img {
+    display: block;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    align-self: center;
+}
+div.wireframe {
+    border: 2px dashed #033f63;
+    text-align: center;
+    padding-bottom: 10px;
+}
+div.wireframe h2 {
+    color: #033f63;
+    margin: 5px;
+}
+div.wireframe a {
+    color: #383838;
+    padding-left: 5px;
+    padding-right: 5px;
+}
