@@ -66,4 +66,13 @@
         margin: 0px;
         margin-bottom: 10px;
     }
+    main div.article img {
+        float: right;
+    }
+    main div.article h2 {
+        font-size: 30px;
+    }
+    main div.article {
+        padding: 20px;
+    }
 }

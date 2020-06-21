@@ -52,6 +52,7 @@
     main section h3 {
         height: 35px;
     }
+
     main div.towns {
         max-width: 940px;
         flex-wrap: unset;
