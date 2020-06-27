@@ -23,7 +23,12 @@ fetch(apiURL2)
       let time = jsObject.list[i].dt_txt;
       if (time.includes("18:00:00") == true) {
         let currID = "high" + day;
+        let currIcon = "icon" + day;
         document.getElementById(currID).textContent = jsObject.list[i].main.temp;
+        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
+        const desc = jsObject.list[i].weather[0].description; 
+        document.getElementById(currIcon).setAttribute('src', imagesrc);
+        document.getElementById(currIcon).setAttribute('alt', desc);
         day += 1;
       }
     }
