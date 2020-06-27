@@ -13,3 +13,11 @@ addBanner = document.querySelector(".friday")
 if (day == 5) {
     addBanner.style.display = "block"
 }
+
+let forecastDay = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat","Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
+
+for (i = 0; i < 5; i++) {
+    let forDay = day + i + 1;
+    let name = "day" + i;
+    document.getElementById(name).textContent = forecastDay[forDay];
+}
