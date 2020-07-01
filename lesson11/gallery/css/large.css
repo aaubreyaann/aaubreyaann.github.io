@@ -1,0 +1,64 @@
+@media only screen and (min-width: 60em) {
+    /*main changes for large*/
+    main {
+        margin: auto;
+        width: 940px;
+    }
+    /*navigation alterations*/
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    footer {
+        max-width: 965px;
+        margin: 2rem auto;
+    }
+    header {
+        font-size: 18px;
+    }
+    header.headerContent {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    header img {
+        width: 100px;
+
+    }
+    main h2 {
+        font-size: 40px;
+        margin: 20px;
+    }
+    main div {
+        font-size: 25px;
+    }
+    /*Gallery Changes*/
+    .nocap {
+        display: block;
+        font-size: 20px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        text-align: left;
+    }
+    body .grid {
+        grid-template-columns: 300px 300px 300px;
+    }
+    div figure {
+        height: 235px;
+    }
+    div figure:hover {
+        box-shadow: 0px 0px 25px #000000;
+    }
+}

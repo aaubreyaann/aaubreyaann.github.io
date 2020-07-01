@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Little City Weather</title>
+    <meta name="description" content="Home Page for Little City Weather">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+            <img src="images/‭rain-cloud-icon.png" alt="cloud with sun and rain drop">
+            <section class="headerContent"> 
+            <h1>Little City Weather</h1>
+            <div>Big weather info for your little city</div>
+            </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="../lesson09/index.html">Home</a></li>
+            <li><a href="../lesson10/index.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>           
+            <li><a href="index.html">Storm Center</a></li>
+            <li><a href="../lesson07/index.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="article">
+            <h2>Weather Story</h2>
+            <img src="images/overcast-day-on-the-lake.jpg" alt="weatherstory">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, harum! Nam, maiores? Expedita ducimus officia distinctio tempora voluptas voluptatibus voluptatum vero provident sed,
+            doloribus incidunt consequatur optio accusamus cumque obcaecati! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum at mollitia, quae nesciunt laborum perferendis maiores in explicabo fuga doloremque minus, maxime quas 
+            impedit ex et excepturi necessitatibus neque aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dolorem deleniti in totam minima quis fugiat aliquid animi sequi tempore explicabo cumque rerum natus
+            </p>
+            
+        </div>
+        <div class="towns"></div>
+        <div class="wireframe">
+            <h2>Wireframes</h2>
+            <a href="large-wireframe.png">Large Wireframe</a>
+            <a href="medium-wireframe.png">Medium Wireframe</a>
+            <a href="small-wireframe.png">Small Wireframe</a>
+        </div>
+    </main>
+    <footer>
+        &copy; Little City Weather | Attributions | Aubrey Stubbs
+        <p id="current"><script src="js/date.js"></script></p>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/towns.js"></script>
+</body>
+
+</html>

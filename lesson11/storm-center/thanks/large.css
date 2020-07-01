@@ -1,0 +1,55 @@
+@media only screen and (min-width: 60em) {
+    /*main changes for large*/
+    main {
+        margin: auto;
+        width: 940px;
+    }
+    /*navigation alterations*/
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    footer {
+        max-width: 965px;
+        margin: 2rem auto;
+    }
+    header {
+        font-size: 18px;
+    }
+    header.headerContent {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    header img {
+        width: 100px;
+    }
+    main {
+        width: 40rem;
+        text-align: center;
+    }
+    main h2 {
+            font-size: 30px;
+            color: #033f63;
+    }
+     main p {
+            color: #383838;
+            font-size: 25px;
+    }
+    main a {
+            color: #033f63;
+            font-size: 20px;
+    }
+}
