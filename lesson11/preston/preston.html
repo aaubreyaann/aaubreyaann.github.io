@@ -19,6 +19,11 @@
         <p>Saturday = Preston Pancakes in the Park!</p>
         <p>9:00 a.m. Saturday at the city park pavilion.</p>
     </div>
+    <div class="prest-event">
+        <ul class="events show">
+            <li><a onclick="toggleEvents()">&#8595; Events</a></li>
+        </ul>
+    </div>
     <header>
             <img src="images/‭rain-cloud-icon.png" alt="cloud with sun and rain drop">
             <section class="headerContent"> 
@@ -29,12 +34,12 @@
     <nav>
         <ul class="navigation responsive">
             <li><a onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="../lesson09/index.html">Home</a></li>
-            <li class="active"><a href="index.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>           
-            <li><a href="../lesson08/index.html">Storm Center</a></li>
-            <li><a href="../lesson07/index.html">Gallery</a></li>
+            <li><a href="../home/home.html">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="../soda-springs/soda-springs.html">Soda Springs</a></li>
+            <li><a href="../fish-haven/fishhaven.html">Fish Haven</a></li>           
+            <li><a href="../storm-center/storm-center.html">Storm Center</a></li>
+            <li><a href="../gallery/gallery.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -67,27 +72,24 @@
                     <li class="table-item"><span id="day4"></span></li>
                 </ul>
                 <ul class="table-row bottom">
-                    <li class="table-item"><img id="icon0" src="" alt=""><br><span id="high0"></span>&#176;</li>
-                    <li class="table-item"><img id="icon1" src="" alt=""><br><span id="high1"></span>&#176;</li>
-                    <li class="table-item"><img id="icon2" src="" alt=""><br><span id="high2"></span>&#176;</li>
-                    <li class="table-item"><img id="icon3" src="" alt=""><br><span id="high3"></span>&#176;</li>
-                    <li class="table-item"><img id="icon4" src="" alt=""><br><span id="high4"></span>&#176;</li>
+                    <li class="table-item"><img id="icon0" src="#" alt=""><br><span id="high0"></span>&#176;</li>
+                    <li class="table-item"><img id="icon1" src="#" alt=""><br><span id="high1"></span>&#176;</li>
+                    <li class="table-item"><img id="icon2" src="#" alt=""><br><span id="high2"></span>&#176;</li>
+                    <li class="table-item"><img id="icon3" src="#" alt=""><br><span id="high3"></span>&#176;</li>
+                    <li class="table-item"><img id="icon4" src="#" alt=""><br><span id="high4"></span>&#176;</li>
                 </ul>
             </div>
         </div>
         <div class="article">
-            <h3>Great Article About Something</h3>
-            <img src="images/overcast-lake.jpg" alt="man on lake">
-            <h4>by Jane Doe</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Eligendi, suscipit impedit id dolores non aperiam. Minus iusto odio accusamus ducimus labore, 
-                beatae exercitationem facere ipsum numquam vero. Fugiat, minus autem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorem ducimus excepturi 
-                voluptatibus. Quas consectetur, numquam voluptatem repellendus a quasi culpa debitis voluptatibus 
-                inventore quod sunt sint dolorem commodi eligendi?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam provident harum quos 
-                animi similique cum perferendis pariatur temporibus illo, totam ducimus natus rerum, dicta 
-                non vel facilis tempore adipisci. Magni?
+            <h3>Winter Wonderland</h3>
+            <img src="images/snowy-road.jpg" alt="snowy road">
+            <h4>by Laney Roe</h4>
+            <p>This past winter was a dream for many in Preston. Snow was late to come, but when it came, everything was covered overnight.
+                There was not a tree top left uncovered. This led to multiple snow days for the children, and parents had to get creative. 
+                Old farmer John was a great help during this wintery season. Every Saturday, he hooked up his horses to his buggy, and gave children
+                sleigh rides through the snow to his field. Here he had created a spendid winter castle. Families came from near and far to see his 
+                creation. There were rooms galore, and icy staircases. One section even had mounds of snowballs with battle stations. This was definitely a winter to
+                remember.
             </p>
         </div>
         <div>
@@ -123,6 +125,7 @@
     <script src="js/webfontload.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/weatherapi.js"></script>
+    <script src="js/events.js"></script>
 </body>
 
 </html>

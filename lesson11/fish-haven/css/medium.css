@@ -79,7 +79,14 @@
     .map img {
         width: 15em;
     }
-
+    /* Events Set Up*/
+    div.fish-event {
+        width: 140px;
+        position: absolute;
+    }
+    .events {
+        font-size: 15px;
+    }
 
     
 }

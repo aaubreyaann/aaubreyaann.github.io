@@ -222,3 +222,39 @@ h4 {
 .noDegrees {
     display: none;
 }
+/* Events Set Up*/
+div.soda-event {
+    background-color: #033f63;
+    width: 100%;
+    z-index: 1000;
+}
+.events {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+.show li:first-child {
+    display: block;
+}
+.show li a {
+    display: block;
+}
+.events li a {
+    display: block;
+}
+.events li {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    padding: .8rem 10%;
+}
+.events li:first-child {
+    background-color: rgba(0,0,0,0.2);
+}
+.show li:first-child:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+.show li {
+    display: none;

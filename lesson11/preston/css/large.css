@@ -46,4 +46,11 @@
     .weather-description {
         left: 60px;
     }
+    /* Events Set Up*/
+    div.prest-event {
+        width: 180px;
+    }
+    .events {
+        font-size: 15px;
+    }
 }
