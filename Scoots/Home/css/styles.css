@@ -320,7 +320,7 @@ body {
   margin: 0px;
   position: relative; }
 
-/*navigation set up*/
+/*------NAV-----*/
 .left-block {
   background-color: #25291c;
   width: 25%;
@@ -366,7 +366,7 @@ nav div.contact {
   nav div.contact p {
     padding-top: 20px; }
 
-/*Header*/
+/*------HEADER------*/
 h1 {
   font-size: 50px;
   color: #FFF;
@@ -378,11 +378,122 @@ header img {
   margin-top: 25px;
   width: 65%; }
 
+/*------MAIN------*/
 main {
-  width: 70%;
-  float: right;
-  padding-right: 20px; }
+  width: 75%;
+  float: right; }
 
+main div.main-body {
+  padding-top: 40px; }
+
+.panorama {
+  max-width: 1090px;
+  float: right;
+  margin-bottom: 30px; }
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  color: #f26419; }
+
+h3 {
+  font-size: 30px; }
+
+.types {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly; }
+
+.types div {
+  padding: 30px;
+  text-align: center; }
+
+.types div img {
+  max-width: 200px; }
+
+/*------WEATHER------*/
+.weather {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px; }
+
+.curr h3, .five h3 {
+  text-align: center; }
+
+.weather-box-curr, .weather-box-five {
+  padding: 20px;
+  background-color: #F6AE2D;
+  opacity: 80%;
+  font-size: 20px;
+  top: 25px;
+  left: 50px;
+  width: 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #25291c;
+  margin: 5px; }
+
+.grid-hold {
+  justify-content: left;
+  display: grid;
+  gap: 5px 5px;
+  font-size: 15px;
+  margin: 0; }
+
+.weather div div {
+  padding-top: 5px; }
+.weather div h4 {
+  margin: 0;
+  text-align: left;
+  border-bottom: solid 1px #25291c;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.grid-hold p {
+  margin: 0; }
+
+.left-grid {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end: 2; }
+
+.right-grid {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: left; }
+
+.row-one {
+  grid-row-start: 1;
+  grid-row-end: 2; }
+
+.row-two {
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.row-three {
+  grid-row-start: 3;
+  grid-row-end: 4; }
+
+/*------RENTAL SUMMARY ------*/
+.summary {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px; }
+
+.summary div {
+  padding: 20px;
+  font-size: 20px;
+  top: 25px;
+  left: 50px;
+  width: 250px;
+  margin: 5px; }
+  .summary div h4 {
+    border-bottom: 2px solid #F6AE2D; }
+  .summary div p {
+    padding: 10px; }
+
+/*------FOOTER-----*/
 footer {
   width: 70%;
   float: right;
