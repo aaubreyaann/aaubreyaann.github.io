@@ -1,0 +1,11 @@
+/*navigation alterations*/
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+.navigation a {
+    text-align: center;
+}

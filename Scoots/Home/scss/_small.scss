@@ -1,0 +1,51 @@
+header, nav, footer, main {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color: $primaryColor;
+}
+body {
+    margin: 0;
+}
+/*navigation set up*/
+.left-block {
+    background-color: $primaryColor;
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+.navigation li {
+    display: block;
+}
+.responsive li:first-child {
+    display: block;
+}
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: $secondary;
+    padding: .8rem 2%;
+}
+nav ul li.active a {
+    background-color: $secondary;
+    color: $primaryColor;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    color: $secondary;
+}
+.responsive li {
+    display: none;
+}
+/*Header*/
+h1 {
+    font-size: 45px;
+    color: $secondary;
+    text-align: center;
+}
