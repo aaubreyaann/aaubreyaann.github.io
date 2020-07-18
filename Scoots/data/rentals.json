@@ -1,0 +1,115 @@
+{ "rentals": [{
+    "type": "Honda Metro Scooter",
+    "max": "1",
+    "price": {
+        "reserve": {
+            "half": "$20",
+            "full": "$30"
+        },
+        "walkin": {
+            "half": "$25",
+            "full": "$35"
+        }
+    },
+    "img":{
+        "file": "images/hondametro.jpg",
+        "desc": "Honda Metro"
+    }
+
+},
+{
+    "type": "Honda Dio Scooter",
+    "max": "2",
+    "price": {
+        "reserve": {
+            "half": "$30",
+            "full": "$40"
+        },
+        "walkin": {
+            "half": "$35",
+            "full": "$45"
+        }
+    },
+    "img":{
+        "file": "images/hondadio.jpg",
+        "desc": "Honda Dio"
+    }
+
+},
+{
+    "type": "Honda PCX150 Scooter",
+    "max": "2",
+    "price": {
+        "reserve": {
+            "half": "$40",
+            "full": "$50"
+        },
+        "walkin": {
+            "half": "$45",
+            "full": "$55"
+        }
+    },
+    "img":{
+        "file": "images/hondapcx150.jpg",
+        "desc": "Honda PCX150"
+    }
+
+},
+{
+    "type": "Honda Pioneer ATV",
+    "max": "4",
+    "price": {
+        "reserve": {
+            "half": "$50",
+            "full": "$70"
+        },
+        "walkin": {
+            "half": "$60",
+            "full": "$80"
+        }
+    },
+    "img":{
+        "file": "images/hondapioneer.jpg",
+        "desc": "Honda Pioneer"
+    }
+
+},
+{
+    "type": "Jeep Wrangle - 4 door with a/c",
+    "max": "5",
+    "price": {
+        "reserve": {
+            "half": "$70",
+            "full": "$100"
+        },
+        "walkin": {
+            "half": "$85",
+            "full": "$125"
+        }
+    },
+    "img":{
+        "file": "images/jeepwrangler-4.jpg",
+        "desc": "Jeep Wrangler four door"
+    }
+
+},
+{
+    "type": "Jeep Wrangle - 2 door",
+    "max": "4",
+    "price": {
+        "reserve": {
+            "half": "$60",
+            "full": "$85"
+        },
+        "walkin": {
+            "half": "$70",
+            "full": "$90"
+        }
+    },
+    "img":{
+        "file": "images/jeepwrangler-2.jpg",
+        "desc": "Jeep Wrangler two door"
+    }
+
+}
+]}

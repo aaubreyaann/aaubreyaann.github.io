@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Scoots-Contact</title>
+    <meta name="description" content="Contact Page for Scoots">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <span class="left-block">
+        <header>
+            <img src="images/icon.png" alt="Scoots Brand">
+            <section class="headerContent">
+                <h1>Scoots</h1>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation responsive">
+                <li><a onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="../Home/home.html">Home</a></li>
+                <li><a href="../Rentals/rentals.html">Rentals</a></li>
+                <li><a href="../Reservations/reservations.html">Reservations</a></li>
+                <li><a href="../Tours/tours.html">Tours</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="contact">
+                <p>110001 Scooter Wheel Drive<br>
+                    Conzumel Island, MX 500000</p>
+                <p>scootscoot@gmail.com</p>
+                <p>1-800-SCOOTER</p>
+            </div>
+        </nav>
+    </span>
+
+    <main>
+        <picture>
+            <source srcset="images/main-photo-707.jpg" media="(min-width: 560px) and (max-width: 959px)">
+            <source srcset="images/main-photo-1090.jpg" media="(min-width: 960px)">
+            <img class="panorama" src="images/main-photo-640.jpg" alt="sunset panorama">
+        </picture>
+
+        <div class="main-body">
+            <h2>Contact</h2>
+            <div class="types">
+                <span class="row-one">
+                    <div>
+                        <img src="images/scooter.png" alt="scooter sillouete">
+                        <h3>Scooters</h3>
+                    </div>
+                    <div>
+                        <img src="images/jeep.png" alt="jeep" sillouete>
+                        <h3>Jeeps</h3>
+                    </div>
+                </span>
+                <span class="row-two">
+                    <div>
+                        <img src="images/atv.png" alt="atv sillouete">
+                        <h3>ATVs</h3>
+                    </div>
+                </span>
+            </div>
+
+            <div class="weather">
+                <div class="curr">
+                    <h3>Current Weather</h3>
+                    <div class="weather-box-curr">
+                        <h4>Weather for today, <span id="date"></span></h4>
+                        <div class="grid-hold">
+                            <p class="left-grid row-one">Currently:</p><span id="desc"
+                                class="right-grid row-one"></span>
+                            <p class="left-grid row-two">High:</p>
+                            <p class="right-grid row-two"><span id="temperature"></span>&#176;</p>
+                            <p class="left-grid row-three">Humidity:</p>
+                            <p class="right-grid row-three"><span id="humid"></span> %</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="five">
+                    <h3>Looking Ahead</h3>
+                    <div class="weather-box-five">
+                        <h4>Weather for <span id="date-5"></span></h4>
+                        <div class="grid-hold">
+                            <p class="left-grid row-one">Currently:</p><span id="desc-2"
+                                class="right-grid row-one"></span>
+                            <p class="left-grid row-two">High:</p>
+                            <p class="right-grid row-two"><span id="temperature-2"></span>&#176;</p>
+                            <p class="left-grid row-three">Humidity:</p>
+                            <p class="right-grid row-three"><span id="humid-2"></span> %</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <picture>
+                <source srcset="images/secondary-photo-707.jpg" media="(min-width: 560px) and (max-width: 959px)">
+                <source srcset="images/secondary-photo-1090.jpg" media="(min-width: 960px)">
+                <img class="panorama" src="images/secondary-photo-640.jpg" alt="panorama of lake">
+            </picture>
+
+            <h2>Types of Rentals</h2>
+            <div class="summary">
+                <div>
+                    <h4>Scooters</h4>
+                    <p>
+                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Sint itaque a
+                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
+                        voluptate ad ut quisquam obcaecati, ea
+                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Sint itaque a
+                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
+                        voluptate ad ut quisquam obcaecati, ea
+                        voluptatem?
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Jeeps</h4>
+                    <p>
+                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Sint itaque a
+                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
+                        voluptate ad ut quisquam obcaecati, ea
+                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Sint itaque a
+                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
+                        voluptate ad ut quisquam obcaecati, ea
+                        voluptatem?
+                    </p>
+                </div>
+
+                <div>
+                    <h4>ATVs</h4>
+                    <p>
+                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Sint itaque a
+                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
+                        voluptate ad ut quisquam obcaecati, ea
+                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Sint itaque a
+                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
+                        voluptate ad ut quisquam obcaecati, ea
+                        voluptatem?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &#169; Scoots | <a href="../resources/resources.html">Resources</a> | Aubrey Stubbs <span class="social"><img
+                src="images/facebook.png" alt="facebook"><img src="images/pinterest.png" alt="pinterest"><img
+                src="images/twitter.png" alt="twitter"></span>
+        <p id="modify">
+            <script src="../js/last-modifed.js"></script>
+        </p>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/dates.js"></script>
+    <script src="js/weatherapi-5.js"></script>
+</body>
+
+</html>

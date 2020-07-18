@@ -169,6 +169,17 @@ h3 {
         padding: 10px;
     }
 }
+/*------RENTAL TYPES------*/
+.table-row {
+    display: table-row;
+}
+.table-item {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    width: 70px;
+}
 /*------FOOTER-----*/
 footer { 
     float: right;
