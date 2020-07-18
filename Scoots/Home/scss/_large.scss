@@ -1,0 +1,14 @@
+.types span.row-one, .types span.row-two {
+    display: flex;
+    margin: unset;
+    justify-content: unset;
+}
+.types span.row-two {
+    justify-content: unset;
+}
+.types {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+

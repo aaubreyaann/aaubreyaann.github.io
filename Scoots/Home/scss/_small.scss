@@ -90,18 +90,14 @@ h2 {
 h3 {
     font-size: 30px;
 }
-.types {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-evenly;
-}
-.types div {
+.types span.row-one div, .types span.row-two div {
     padding: 30px;
     text-align: center;
+    img {
+        max-width: 200px;
+    }
 }
-.types div img {
-    max-width: 200px;
-}
+
 /*------WEATHER------*/
 .weather {
     display: flex;

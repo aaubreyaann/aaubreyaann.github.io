@@ -399,17 +399,11 @@ h2 {
 h3 {
   font-size: 30px; }
 
-.types {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-evenly; }
-
-.types div {
+.types span.row-one div, .types span.row-two div {
   padding: 30px;
   text-align: center; }
-
-.types div img {
-  max-width: 200px; }
+  .types span.row-one div img, .types span.row-two div img {
+    max-width: 200px; }
 
 /*------WEATHER------*/
 .weather {
@@ -528,5 +522,26 @@ footer .social {
     flex: 1 1 100%; }
 
   .navigation a {
-    text-align: center; } }
+    text-align: center; }
+
+  .types span.row-one, .types span.row-two {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly; }
+
+  .types span.row-two {
+    justify-content: center; } }
+@media only screen and (min-width: 60em) {
+  .types span.row-one, .types span.row-two {
+    display: flex;
+    margin: unset;
+    justify-content: unset; }
+
+  .types span.row-two {
+    justify-content: unset; }
+
+  .types {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; } }
 /* end of media query */
