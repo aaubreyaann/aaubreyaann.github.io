@@ -1,0 +1,29 @@
+.types span.row-one, .types span.row-two {
+    display: flex;
+    margin: unset;
+    justify-content: unset;
+}
+.types span.row-two {
+    justify-content: unset;
+}
+.types {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+/*------WEATHER------*/
+.weather-box-curr, .weather-box-five {
+    width: 300px;
+}
+/*------RENTAL SUMMARY ------*/
+.summary {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.summary div {
+    width: 250px;
+}
+.panorama {
+    max-width: 100%;
+}
