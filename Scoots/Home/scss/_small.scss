@@ -8,16 +8,16 @@ header, nav, footer, main {
 body {
     padding: 0;
     margin: 0px; 
-    position: relative;
+
 }
 /*------NAV-----*/
+nav div.contact {
+    display: none;
+}
 .left-block {
     background-color: $primaryColor;
-    width: 25%;
-    height: 100%;
-    float: left;
-    margin: 0;
-    position: fixed;
+    display: block;
+    justify-content: center;
 }
 .navigation {
     list-style-type: none;
@@ -49,37 +49,29 @@ nav ul li a:hover {
 .responsive li {
     display: none;
 }
-nav div.contact {
-    color: $secondary;
-    padding-top: 40px;
-    text-align: center;
-    p {
-        padding-top: 20px;
-    }
-}
+
 /*------HEADER------*/
+header {
+    padding: 10px;
+}
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: $secondary;
     text-align: center;
 }
 header img {
-    display: block;
+    display: flex;
     margin: 0 auto;
     margin-top: 25px;
-    width: 65%;
+    width: 60px;
 }
 /*------MAIN------*/
-main {
-    width: 75%;
-    float: right;
-}
+
 main div.main-body {
     padding-top: 40px;
 }
 .panorama {
-    max-width: 1090px;
-    float: right;
+    width: 100%;
     margin-bottom: 30px;
 }
 h2 {
@@ -100,9 +92,9 @@ h3 {
 
 /*------WEATHER------*/
 .weather {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 40px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
 }
 .curr h3, .five h3 {
     text-align: center;
@@ -112,13 +104,11 @@ h3 {
     background-color: $accentOne;
     opacity: 80%;
     font-size: 20px;
-    top: 25px;
-    left: 50px;
-    width: 300px;
+    width: 200px;
     border-style: solid;
     border-width: 2px;
     border-color: $primaryColor;
-    margin: 5px;
+    margin: 20px auto;
 }
 .grid-hold {
     justify-content: left;
@@ -166,17 +156,11 @@ h3 {
     grid-row-end: 4;
 }
 /*------RENTAL SUMMARY ------*/
-.summary {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-}
 .summary div {
     padding: 20px;
     font-size: 20px;
     top: 25px;
     left: 50px;
-    width: 250px;
     margin: 5px;
     h4 {
         border-bottom: 2px solid $accentOne;
@@ -187,10 +171,9 @@ h3 {
 }
 /*------FOOTER-----*/
 footer { 
-    width: 70%;
     float: right;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 15px;
     padding: 15px;
     padding-left: 0;
     border-top: 2px solid $primaryColor;

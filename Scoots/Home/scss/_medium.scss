@@ -1,4 +1,23 @@
+/*------HEADER------*/
+header {
+    padding: 0px;
+}
+h1 {
+    font-size: 50px;
+    color: $secondary;
+    text-align: center;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 65%;
+}
+
 /*navigation alterations*/
+.navigation {
+    float: unset;
+}
 .navigation li:first-child {
     display: none;
 }
@@ -9,6 +28,25 @@
 .navigation a {
     text-align: center;
 }
+.left-block {
+    background-color: $primaryColor;
+    display: block;
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    position: fixed;
+}
+nav div.contact {
+    display: block;
+    color: $secondary;
+    padding-top: 40px;
+    text-align: center;
+    p {
+        padding-top: 20px;
+    }
+}
+
 .types span.row-one, .types span.row-two {
     display: flex;
     margin: 0 auto;
@@ -16,4 +54,32 @@
 }
 .types span.row-two {
     justify-content: center;
+}
+/*------WEATHER------*/
+.weather {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+.weather-box-curr, .weather-box-five {
+    width: 180px;
+    margin: 5px;
+}
+/*------MAIN------*/
+body {
+    position: relative;
+}
+main {
+    width: 75%;
+    float: right;
+}
+.panorama {
+    max-width: 1090px;
+    float: right;
+}
+
+/*------FOOTER-----*/
+footer { 
+    width: 70%;
+    font-size: 17px;
 }
