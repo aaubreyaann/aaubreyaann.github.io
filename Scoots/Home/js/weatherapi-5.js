@@ -7,18 +7,14 @@ fetch(apiURL2)
     var i;
     let dayCount = 0;
     for (i = 0; dayCount < 6; i++) {
-        let time = jsObject.list[i].dt_txt;
+        let time= jsObject.list[i].dt_txt;
         if (time.includes("12:00:00") == true) {
             if (dayCount == 5) {
                 document.getElementById("temperature-2").textContent = jsObject.list[i].main.temp_max;
                 document.getElementById('desc-2').textContent = jsObject.list[i].weather[0].description;  
                 document.getElementById('humid-2').textContent = jsObject.list[i].main.humidity;
-                dayCount += 1;
-            }
-            else {
-                dayCount += 1;
-            };
-            
+            }  
         }
-        }
+        dayCount += 1;
+    }
   });
