@@ -567,7 +567,7 @@ footer .social {
     float: right; }
 
   .panorama {
-    max-width: 1090px;
+    max-width: 707px;
     float: right; }
 
   /*------FOOTER-----*/
@@ -599,5 +599,8 @@ footer .social {
     margin: 20px; }
 
   .summary div {
-    width: 250px; } }
+    width: 250px; }
+
+  .panorama {
+    max-width: 100%; } }
 /* end of media query */
