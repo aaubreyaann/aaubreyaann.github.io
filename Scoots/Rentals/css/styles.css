@@ -470,15 +470,41 @@ h3 {
     padding: 10px; }
 
 /*------RENTAL TYPES------*/
-.table-row {
-  display: table-row; }
+.rentals {
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px; }
+  .rentals h4 {
+    color: #F6AE2D;
+    text-align: center;
+    font-size: 20px; }
+  .rentals section {
+    background-color: #25291c;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    color: #FFF; }
+    .rentals section div {
+      justify-content: right;
+      padding: 0; }
+    .rentals section ul li {
+      font-size: 18px; }
+    .rentals section img {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 95%;
+      padding: 5px; }
 
-.table-item {
-  display: table-cell;
-  border: 1px solid black;
+table {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%; }
+
+td {
   padding: 10px;
-  font-size: 20px;
-  width: 70px; }
+  font-size: 15px; }
 
 /*------FOOTER-----*/
 footer {
@@ -489,7 +515,8 @@ footer {
   padding-left: 0;
   border-top: 2px solid #25291c;
   text-align: right;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-top: 20px; }
 
 footer img {
   width: 20px;
@@ -581,6 +608,13 @@ footer .social {
     max-width: 707px;
     float: right; }
 
+  /*------RENTAL TYPES------*/
+  .rentals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px; }
+
   /*------FOOTER-----*/
   footer {
     width: 70%;
@@ -613,5 +647,9 @@ footer .social {
     width: 250px; }
 
   .panorama {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  /*------RENTAL TYPES------*/
+  .rentals {
+    grid-template-columns: 1fr 1fr 1fr; } }
 /* end of media query */

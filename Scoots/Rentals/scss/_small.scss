@@ -170,15 +170,47 @@ h3 {
     }
 }
 /*------RENTAL TYPES------*/
-.table-row {
-    display: table-row;
+.rentals {
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px;
+    h4 {
+        color: $accentOne;
+        text-align: center;
+        font-size: 20px;
+    }
+    section {
+        background-color: $primaryColor;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+        width: 90%;
+        color: $secondary;
+        div {
+            justify-content: right;
+            
+            padding: 0;
+        }
+        ul li {
+            font-size: 18px;
+        }
+        img {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            max-width: 95%;
+            padding: 5px;
+        }
+    }
 }
-.table-item {
-    display: table-cell;
-    border: 1px solid black;
+table  {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+td {
     padding: 10px;
-    font-size: 20px;
-    width: 70px;
+    font-size: 15px;
 }
 /*------FOOTER-----*/
 footer { 
@@ -190,6 +222,7 @@ footer {
     border-top: 2px solid $primaryColor;
     text-align: right;
     line-height: 20px;
+    margin-top: 20px;
 }
 footer img {
     width: 20px;

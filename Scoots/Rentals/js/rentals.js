@@ -6,45 +6,28 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const rentals = jsObject['rentals'];
+        const rentals = jsonObject['rentals'];
         for (let i = 0; i < rentals.length; i++) {
             let rent = document.createElement('section');
-            let type = document.createElement('h2');
+            let type = document.createElement('h4');
             let img = document.createElement('img');
-            let info = document.createElement('div');
-            let max = document.createElement('ul');
-            let maxval = document.createElement('li');
-            let valmax = document.createElement('li');
-            let halfres = document.createElement('ul');
-            let fullres = document.createElement('ul');
-            let halfresval = document.createElement('li');
-            let reshalf = document.createElement('li');
-            let fullresval = document.createElement('li');
-            let resfull = document.createElement('li');
-            let halfwalk = document.createElement('ul');
-            let fullwalk = document.createElement('ul');
-            let halfwalkval = document.createElement('li');
-            let walkhalf = document.createElement('li');
-            let fullwalkval = document.createElement('li');
-            let walkfull = document.createElement('li');
+            let info = document.createElement('table');
+            let max = document.createElement('tr');
+            let maxval = document.createElement('td');
+            let valmax = document.createElement('td');
+            let halfres = document.createElement('tr');
+            let fullres = document.createElement('tr');
+            let halfresval = document.createElement('td');
+            let reshalf = document.createElement('td');
+            let fullresval = document.createElement('td');
+            let resfull = document.createElement('td');
+            let halfwalk = document.createElement('tr');
+            let fullwalk = document.createElement('tr');
+            let halfwalkval = document.createElement('td');
+            let walkhalf = document.createElement('td');
+            let fullwalkval = document.createElement('td');
+            let walkfull = document.createElement('td');
                 
-                info.setAttribute("class", "table-hold");
-                max.className("table-row");
-                halfres.className("table-row");
-                fullres.className("table-row");
-                halfwalk.className("table-row");
-                fullwalk.className("table-row");
-
-                maxval.className("table-item");
-                valmax.className("table-item");
-                halfresval.className("table-item");
-                reshalf.className("table-item");
-                fullresval.className("table-item");
-                resfull.className("table-item");
-                halfwalkval.className("table-item");
-                walkhalf.className("table-item");
-                fullwalkval.className("table-item");
-                walkfull.className("table-item");
                 
                 type.textContent = rentals[i].type;
                 maxval.textContent = rentals[i].max;
@@ -53,9 +36,9 @@ fetch(requestURL)
                 reshalf.textContent = "Half Day with Reservation";
                 fullresval.textContent = rentals[i].price.reserve.full;
                 resfull.textContent = "Full Day with Reservation";
-                halfwalkval.textContent = rentals[i].price.walk.half;
+                halfwalkval.textContent = rentals[i].price.walkin.half;
                 walkhalf.textContent = "Half Day Walk In";
-                fullwalkval.textContent = rentals[i].price.walk.full;
+                fullwalkval.textContent = rentals[i].price.walkin.full;
                 walkfull.textContent = "Full Day Walk In";
 
 
