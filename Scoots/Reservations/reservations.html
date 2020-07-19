@@ -64,92 +64,57 @@
                     </div>
                 </span>
             </div>
-
-            <div class="weather">
-                <div class="curr">
-                    <h3>Current Weather</h3>
-                    <div class="weather-box-curr">
-                        <h4>Weather for today, <span id="date"></span></h4>
-                        <div class="grid-hold">
-                            <p class="left-grid row-one">Currently:</p><span id="desc"
-                                class="right-grid row-one"></span>
-                            <p class="left-grid row-two">High:</p>
-                            <p class="right-grid row-two"><span id="temperature"></span>&#176;</p>
-                            <p class="left-grid row-three">Humidity:</p>
-                            <p class="right-grid row-three"><span id="humid"></span> %</p>
-                        </div>
-                    </div>
+            <h2>Make a Reservation</h2>
+            <form method="get" action="confirmation/confirmation.html">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="name@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="12345551234" required></label>
+                    <label class="top">State/Country* <input type="text" name="state" required></label>
+                    <label class="top">Cruise Line <input type="text" name="line"></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Rental</legend>
+                    <div>Type</div>
+                    <div class="radio">
+                    <label class="sbs"><input type="radio" name="rent" value="hondametro" required> Honda Metro Scooter</label>
+                    <label class="sbs"><input type="radio" name="rent" value="hondadio"> Honda Dio Scooter</label>
+                    <label class="sbs"><input type="radio" name="rent" value="hondapcx150"> Honda PCX150 Scooter</label>
+                    <label class="sbs"><input type="radio" name="rent" value="hondapioneer"> Honda Pioneer ATV</label>
+                    <label class="sbs"><input type="radio" name="rent" value="jeep4"> Jeep Wrangle - 4 door with a/c</label>
+                    <label class="sbs"><input type="radio" name="rent" value="jeep2"> Jeep Wrangle - 2 door</label>
                 </div>
 
-                <div class="five">
-                    <h3>Looking Ahead</h3>
-                    <div class="weather-box-five">
-                        <h4>Weather for <span id="date-5"></span></h4>
-                        <div class="grid-hold">
-                            <p class="left-grid row-one">Currently:</p><span id="desc-2"
-                                class="right-grid row-one"></span>
-                            <p class="left-grid row-two">High:</p>
-                            <p class="right-grid row-two"><span id="temperature-2"></span>&#176;</p>
-                            <p class="left-grid row-three">Humidity:</p>
-                            <p class="right-grid row-three"><span id="humid-2"></span> %</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <label class="top">Number of Rentals
+                        <select name="region" required>
+                                <option value="">Select Number &#9662;</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select>
+                    </label>
+                    
+                    <label class="top">Rental Start Date <input type="date" name="startDate" required></label>
+                    <label class="top">Rental End Date <input type="date" name="endDate" required></label>
 
-            <picture>
-                <source srcset="images/secondary-photo-707.jpg" media="(min-width: 560px) and (max-width: 959px)">
-                <source srcset="images/secondary-photo-1090.jpg" media="(min-width: 960px)">
-                <img class="panorama" src="images/secondary-photo-640.jpg" alt="panorama of lake">
-            </picture>
+                    <label class="top">Time Period
+                        <select name="period" required>
+                                <option value="">Select Period &#9662;</option>
+                            <option value="full">Full Day</option>
+                            <option value="half">Half Day</option>
+                        </select>
+                    </label>
 
-            <h2>Types of Rentals</h2>
-            <div class="summary">
-                <div>
-                    <h4>Scooters</h4>
-                    <p>
-                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem?
-                    </p>
-                </div>
-
-                <div>
-                    <h4>Jeeps</h4>
-                    <p>
-                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem?
-                    </p>
-                </div>
-
-                <div>
-                    <h4>ATVs</h4>
-                    <p>
-                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem?
-                    </p>
-                </div>
-            </div>
+                    <label class="top"><span>Requests or Comments</span><textarea class="text" name="info" rows="10" cols="40"></textarea></label>
+                </fieldset>
+    
+                <input class="submitBtn" type="submit" value="Finalize Reservation">
+            </form>
         </div>
     </main>
     <footer>
