@@ -77,7 +77,11 @@ main {
     max-width: 707px;
     float: right;
 }
-
+div.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
 /*------FOOTER-----*/
 footer { 
     width: 70%;

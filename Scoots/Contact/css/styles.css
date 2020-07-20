@@ -482,12 +482,15 @@ form div.agree {
 div.map {
   display: flex;
   justify-content: center;
-  width: 90%; }
+  width: 90%;
+  margin: 0 auto; }
 
-div.address {
-  margin-left: 40px;
+div.contact-info {
+  text-align: center;
   padding: 10px; }
-  div.address h4 {
+  div.contact-info div {
+    display: block; }
+  div.contact-info h4 {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 5px; }
@@ -592,6 +595,11 @@ footer .social {
   .panorama {
     max-width: 707px;
     float: right; }
+
+  div.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left; }
 
   /*------FOOTER-----*/
   footer {

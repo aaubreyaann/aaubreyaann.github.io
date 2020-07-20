@@ -180,10 +180,14 @@ div.map {
     display: flex;
     justify-content: center;
     width: 90%;
+    margin: 0 auto;
 }
-div.address {
-    margin-left: 40px;
+div.contact-info {
+    text-align: center;
     padding: 10px;
+    div{
+        display: block;
+    }
     h4 {
         font-size: 25px;
         margin-top: 10px;
