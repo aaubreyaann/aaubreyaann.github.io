@@ -46,110 +46,31 @@
 
         <div class="main-body">
             <h2>Contact</h2>
-            <div class="types">
-                <span class="row-one">
-                    <div>
-                        <img src="images/scooter.png" alt="scooter sillouete">
-                        <h3>Scooters</h3>
-                    </div>
-                    <div>
-                        <img src="images/jeep.png" alt="jeep" sillouete>
-                        <h3>Jeeps</h3>
-                    </div>
-                </span>
-                <span class="row-two">
-                    <div>
-                        <img src="images/atv.png" alt="atv sillouete">
-                        <h3>ATVs</h3>
-                    </div>
-                </span>
+            <div class="contact-info">
+
+                <h4>Address</h4>
+                <p>110001 Scooter Wheel Drive<br>
+                    Conzumel Island, MX 500000</p>
+                <h4>Email</h4>
+                <p>scootscoot@gmail.com</p>
+                <h4>Phone number</h4>
+                <p>1-800-SCOOTER</p>
+            </div>
+            <div class="map">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17VnZaC3yDfMUcut55PuDBaZb7_Ay1kB6" width="640" height="480"></iframe>
             </div>
 
-            <div class="weather">
-                <div class="curr">
-                    <h3>Current Weather</h3>
-                    <div class="weather-box-curr">
-                        <h4>Weather for today, <span id="date"></span></h4>
-                        <div class="grid-hold">
-                            <p class="left-grid row-one">Currently:</p><span id="desc"
-                                class="right-grid row-one"></span>
-                            <p class="left-grid row-two">High:</p>
-                            <p class="right-grid row-two"><span id="temperature"></span>&#176;</p>
-                            <p class="left-grid row-three">Humidity:</p>
-                            <p class="right-grid row-three"><span id="humid"></span> %</p>
-                        </div>
-                    </div>
-                </div>
+            <form method="get" action="confirmation/confirmation.html">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="name@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="12345551234" required></label>
+                    <label class="top"><span>Message</span><textarea class="text" name="info" rows="10" cols="40"></textarea></label>
+                </fieldset>
 
-                <div class="five">
-                    <h3>Looking Ahead</h3>
-                    <div class="weather-box-five">
-                        <h4>Weather for <span id="date-5"></span></h4>
-                        <div class="grid-hold">
-                            <p class="left-grid row-one">Currently:</p><span id="desc-2"
-                                class="right-grid row-one"></span>
-                            <p class="left-grid row-two">High:</p>
-                            <p class="right-grid row-two"><span id="temperature-2"></span>&#176;</p>
-                            <p class="left-grid row-three">Humidity:</p>
-                            <p class="right-grid row-three"><span id="humid-2"></span> %</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <picture>
-                <source srcset="images/secondary-photo-707.jpg" media="(min-width: 560px) and (max-width: 959px)">
-                <source srcset="images/secondary-photo-1090.jpg" media="(min-width: 960px)">
-                <img class="panorama" src="images/secondary-photo-640.jpg" alt="panorama of lake">
-            </picture>
-
-            <h2>Types of Rentals</h2>
-            <div class="summary">
-                <div>
-                    <h4>Scooters</h4>
-                    <p>
-                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem?
-                    </p>
-                </div>
-
-                <div>
-                    <h4>Jeeps</h4>
-                    <p>
-                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem?
-                    </p>
-                </div>
-
-                <div>
-                    <h4>ATVs</h4>
-                    <p>
-                        We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem? We offer a variety of Honda Scooters for single or double riders. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Sint itaque a
-                        ccusantium dignissimos. Rerum consequatur, ullam fugit voluptatum, et quasi sit facere minima at
-                        voluptate ad ut quisquam obcaecati, ea
-                        voluptatem?
-                    </p>
-                </div>
-            </div>
+                <input class="submitBtn" type="submit" value="Send Message">
+            </form>
         </div>
     </main>
     <footer>

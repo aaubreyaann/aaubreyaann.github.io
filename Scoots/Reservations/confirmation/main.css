@@ -1,0 +1,20 @@
+body main {
+    text-align: center;
+    
+}
+div.img {
+    display: flex; 
+    justify-content: center;
+}
+img {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+}
+h1 {
+    color: #f26419;
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}

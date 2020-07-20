@@ -82,6 +82,11 @@ h2 {
 h3 {
     font-size: 30px;
 }
+p {
+    font-size: 17px;
+    margin-left: 5%;
+    padding: 10px;
+}
 .types span.row-one div, .types span.row-two div {
     padding: 30px;
     text-align: center;
@@ -156,20 +161,6 @@ form label.top input:required, form label.top select:required{
 form label.top input:required:valid {
     border-left: olive solid 4px;
 }
-form div.range {
-    padding-top: 1rem;
-    padding: .75rem;
-    padding-left: 0;
-    width: 190px;
-    display: block;
-    align-items: center;
-}
-form div.range span {
-    padding-right: 15px;
-}
-form div.range input {
-    width: 340px;
-}
 form label textarea.text {
     display: block;
     width: 320px;
@@ -178,7 +169,18 @@ form label textarea.text {
     padding: .75rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
+form div.agree ul {
+    text-decoration: none;
+    margin-left: 4px;
+    li {
+        padding: 4px;
 
+    }
+}
+form div.agree {
+    padding-top: 0px;
+    padding-left: 5px;
+}
 /*------FOOTER-----*/
 footer { 
     float: right;

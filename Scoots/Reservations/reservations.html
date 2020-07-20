@@ -46,24 +46,11 @@
 
         <div class="main-body">
             <h2>Reservations</h2>
-            <div class="types">
-                <span class="row-one">
-                    <div>
-                        <img src="images/scooter.png" alt="scooter sillouete">
-                        <h3>Scooters</h3>
-                    </div>
-                    <div>
-                        <img src="images/jeep.png" alt="jeep" sillouete>
-                        <h3>Jeeps</h3>
-                    </div>
-                </span>
-                <span class="row-two">
-                    <div>
-                        <img src="images/atv.png" alt="atv sillouete">
-                        <h3>ATVs</h3>
-                    </div>
-                </span>
-            </div>
+            <p> We are happy to provide reservation services for locals, walk-in tourists, enthusiasts, and 
+                cruise-based touring groups and partnerships on the Island of Cozumel,
+                We have two rental locations. One near the Playa del Carmen-Cozumel Ferry dock in el 
+                Centro de Cozumel and the other near the Terminal Puerta Maya. Can't wait for you to Scoot across the island!
+                </p>
             <h2>Make a Reservation</h2>
             <form method="get" action="confirmation/confirmation.html">
                 <fieldset>
@@ -76,7 +63,7 @@
                 </fieldset>
                 
                 <fieldset>
-                    <legend>Rental</legend>
+                    <legend>Rental Information</legend>
                     <div>Type</div>
                     <div class="radio">
                     <label class="sbs"><input type="radio" name="rent" value="hondametro" required> Honda Metro Scooter</label>
@@ -111,8 +98,30 @@
                     </label>
 
                     <label class="top"><span>Requests or Comments</span><textarea class="text" name="info" rows="10" cols="40"></textarea></label>
+                    
+                    
                 </fieldset>
-    
+                
+                <fieldset>
+                <legend>Rental Agreement</legend>
+                <div class="agree">
+                    <ul>
+                        <li>A $50 security deposit is required to confirm reservations.</li>
+                        <li>A valid drivers license is required in hand at time of rental.</li>
+                        <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                        <li>Fuel charge not included.</li>
+                        <li>Unlimited mileage.</li>
+                        <li>Liability insurance is free of charge.</li>
+                        <li>Liability insurance is free of charge.</li>
+                        <li>Reservations rate requires 24 hour prior notification.</li>
+                        <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                        <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                        <li>Rentals may be returned to either location.</li>
+                    </ul>
+                    <label class="sbs"><input type="radio" name="agree" value="agreement" required> I agree to the rental terms and conditions</label>
+                </div>
+                </fieldset>
+
                 <input class="submitBtn" type="submit" value="Finalize Reservation">
             </form>
         </div>
