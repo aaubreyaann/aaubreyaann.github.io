@@ -75,7 +75,7 @@
 
 },
 {
-    "type": "Jeep Wrangle - 4 door with a/c",
+    "type": "Jeep Wrangler - 4 door with a/c",
     "max": "5",
     "price": {
         "reserve": {
@@ -94,7 +94,7 @@
 
 },
 {
-    "type": "Jeep Wrangle - 2 door",
+    "type": "Jeep Wrangler - 2 door",
     "max": "4",
     "price": {
         "reserve": {

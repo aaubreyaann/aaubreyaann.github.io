@@ -1,15 +1,18 @@
-.types span.row-one, .types span.row-two {
+.sites span.row-one, .sites span.row-two {
     display: flex;
     margin: unset;
     justify-content: unset;
 }
-.types span.row-two {
+.sites span.row-two {
     justify-content: unset;
 }
-.types {
+.sites {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    img {
+        max-width: 300px;
+    }
 }
 /*------WEATHER------*/
 .weather-box-curr, .weather-box-five {

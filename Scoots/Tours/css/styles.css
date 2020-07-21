@@ -389,11 +389,17 @@ h2 {
 h3 {
   font-size: 30px; }
 
-.types span.row-one div, .types span.row-two div {
+.sites span.row-one div, .sites span.row-two div {
   padding: 30px;
   text-align: center; }
-  .types span.row-one div img, .types span.row-two div img {
+  .sites span.row-one div img, .sites span.row-two div img {
     max-width: 200px; }
+
+p {
+  font-size: 18px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px; }
 
 /*------WEATHER------*/
 .weather {
@@ -540,12 +546,12 @@ footer .social {
     nav div.contact p {
       padding-top: 20px; }
 
-  .types span.row-one, .types span.row-two {
+  .sites span.row-one, .sites span.row-two {
     display: flex;
     margin: 0 auto;
     justify-content: space-evenly; }
 
-  .types span.row-two {
+  .sites span.row-two {
     justify-content: center; }
 
   /*------WEATHER------*/
@@ -575,18 +581,20 @@ footer .social {
     width: 70%;
     font-size: 17px; } }
 @media only screen and (min-width: 60em) {
-  .types span.row-one, .types span.row-two {
+  .sites span.row-one, .sites span.row-two {
     display: flex;
     margin: unset;
     justify-content: unset; }
 
-  .types span.row-two {
+  .sites span.row-two {
     justify-content: unset; }
 
-  .types {
+  .sites {
     display: flex;
     margin: 0 auto;
     justify-content: center; }
+    .sites img {
+      max-width: 300px; }
 
   /*------WEATHER------*/
   .weather-box-curr, .weather-box-five {
