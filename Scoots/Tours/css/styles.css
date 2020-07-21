@@ -389,10 +389,10 @@ h2 {
 h3 {
   font-size: 30px; }
 
-.sites span.row-one div, .sites span.row-two div {
+.sites section.row-one div, .sites section.row-two div {
   padding: 30px;
   text-align: center; }
-  .sites span.row-one div img, .sites span.row-two div img {
+  .sites section.row-one div img, .sites section.row-two div img {
     max-width: 200px; }
 
 p {
@@ -472,12 +472,12 @@ footer .social {
     nav div.contact p {
       padding-top: 20px; }
 
-  .sites span.row-one, .sites span.row-two {
+  .sites section.row-one, .sites section.row-two {
     display: flex;
     margin: 0 auto;
     justify-content: space-evenly; }
 
-  .sites span.row-two {
+  .sites section.row-two {
     justify-content: center; }
 
   /*------MAIN------*/
@@ -497,12 +497,12 @@ footer .social {
     width: 70%;
     font-size: 17px; } }
 @media only screen and (min-width: 60em) {
-  .sites span.row-one, .sites span.row-two {
+  .sites section.row-one, .sites section.row-two {
     display: flex;
     margin: unset;
     justify-content: unset; }
 
-  .sites span.row-two {
+  .sites section.row-two {
     justify-content: unset; }
 
   .sites {
